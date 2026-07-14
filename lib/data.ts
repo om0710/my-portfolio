@@ -100,7 +100,7 @@ export const skillGroups: SkillGroup[] = [
 export const projects: Project[] = [
   {
     title: "AI Voice Agent",
-    tech: ["LangGraph", "LangChain", "Groq", "Streamlit"],
+    tech: ["FastAPI", "Vapi AI", "Streamlit", "SQLite"],
     description: "Architected a real-time conversational voice agent using LangGraph state machines to manage multi-turn dialogue flow and context across turns. Integrated Groq-hosted LLMs for low-latency inference and deployed a responsive Streamlit interface for live voice interaction.",
     github: "https://lnkd.in/gCUYiamh"
   },

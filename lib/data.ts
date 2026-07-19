@@ -99,30 +99,24 @@ export const skillGroups: SkillGroup[] = [
 
 export const projects: Project[] = [
   {
-    title: "AI Voice Agent",
+    title: "🤖 AI Voice Agent",
     tech: ["FastAPI", "Vapi AI", "Streamlit", "SQLite"],
     description: "Architected a real-time conversational voice agent using LangGraph state machines to manage multi-turn dialogue flow and context across turns. Integrated Groq-hosted LLMs for low-latency inference and deployed a responsive Streamlit interface for live voice interaction.",
     github: "https://lnkd.in/gCUYiamh"
   },
   {
-    title: "Recruitment AI Workflow",
+    title: "👥 AI Recruitment Workflow",
     tech: ["LangGraph", "LangChain", "Groq", "Streamlit"],
     description: "Built a multi-agent recruitment automation pipeline in LangGraph, coordinating specialized agents to parse and evaluate candidate information. Streamlined candidate screening by automating repetitive recruitment tasks, cutting manual review effort across the pipeline.",
     github: "https://lnkd.in/grnnuaFv"
   },
   {
-    title: "LangGraph RAG Chatbot with Tool Calling",
-    tech: ["LangGraph", "LangChain", "ChromaDB", "Groq"],
-    description: "Designed an agentic chatbot combining Retrieval-Augmented Generation with dynamic tool-calling, enabling the agent to reason over documents and invoke external tools mid-conversation. Orchestrated LangGraph nodes to route queries between retrieval and tool-execution paths, improving response accuracy on multi-step questions.",
+    title: "💬 LangGraph RAG Chatbot with Tool Calling",
+    tech: ["LangGraph", "LangChain", "ChromaDB", "Groq", "SQLite", "Streamlit"],
+    description: "Designed an agentic chatbot combining Retrieval-Augmented Generation (RAG) with dynamic tool-calling and persistent SQLite memory. Orchestrated LangGraph state machines to manage multi-turn conversations, retrieve context from uploaded PDFs, and invoke external tools (calculator, Wikipedia, stocks) with real-time streaming responses.",
     github: "https://lnkd.in/gQ5DZz78",
-    demo: "https://lnkd.in/gNxwksKm",
+    demo: "https://lnkd.in/gJzZNfJA",
     isFeatured: true
-  },
-  {
-    title: "RAG Chatbot for PDF Q&A",
-    tech: ["LangChain", "Google Gemini API", "ChromaDB", "Streamlit"],
-    description: "Developed a Retrieval-Augmented Generation chatbot that answers questions from uploaded PDFs using semantic search over vector embeddings. Implemented document chunking and embedding storage in ChromaDB, integrated with the Google Gemini API for accurate, context-grounded responses.",
-    github: "https://lnkd.in/gRAHPv9H"
   }
 ];
 

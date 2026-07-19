@@ -49,14 +49,15 @@ export function About() {
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+          {/* Profile Image Column (Left on Desktop) */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
-            className="md:col-span-5 flex justify-center order-1"
+            className="md:col-span-4 flex justify-center order-1"
           >
-            <div className="relative group max-w-sm md:max-w-none w-full aspect-[4/5] md:aspect-square rounded-3xl overflow-hidden glass-card p-2 hover:border-primary/30 transition-colors duration-300">
+            <div className="relative group max-w-sm md:max-w-none w-full aspect-[3/4] rounded-3xl overflow-hidden glass-card p-2 hover:border-primary/30 transition-colors duration-300">
               {/* Background glow */}
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl" />
               
@@ -70,7 +71,7 @@ export function About() {
           </motion.div>
  
           {/* Bio & Stats column (Right on Desktop) */}
-          <div className="md:col-span-7 space-y-8 order-2">
+          <div className="md:col-span-8 space-y-8 order-2">
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
